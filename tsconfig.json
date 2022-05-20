@@ -1,0 +1,21 @@
+{
+    "compilerOptions":{
+        "baseUrl": ".",
+        "module": "commonjs",
+        "target": "es2017",
+        "lib": ["ES2017"],
+        "outDir": "lib",
+        "esModuleInterop":true,
+        "declaration": true,
+        "sourceMap": true,
+        "strict":true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "downlevelIteration": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+}
